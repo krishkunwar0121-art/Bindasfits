@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Products — BindasFits</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">BindasFits</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html" class="nav-cart">Cart <span id="cart-count">0</span></a>
+        <a href="login.html" class="btn btn-outline">Login</a>
+      </nav>
+      <button id="mobile-toggle-2" class="mobile-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>All Products</h1>
+    <div class="controls">
+      <select id="filter-category">
+        <option value="all">All Categories</option>
+        <option value="tops">Tops</option>
+        <option value="bottoms">Bottoms</option>
+        <option value="accessories">Accessories</option>
+      </select>
+      <input id="search" type="search" placeholder="Search products">
+    </div>
+
+    <div id="products-grid" class="product-grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">© <span id="year2"></span> BindasFits</div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>

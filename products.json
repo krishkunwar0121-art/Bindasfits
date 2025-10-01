@@ -1,0 +1,6 @@
+[
+  {"id":"p1","title":"Bindas Tee - White","category":"tops","price":499,"image":"assets/images/p1.jpg","description":"Classic cotton tee, comfortable fit."},
+  {"id":"p2","title":"Bindas Hoodie - Black","category":"tops","price":1299,"image":"assets/images/p2.jpg","description":"Warm hoodie with soft fleece lining."},
+  {"id":"p3","title":"Bindas Jeans - Blue","category":"bottoms","price":1499,"image":"assets/images/p3.jpg","description":"Regular fit denim with durable finish."},
+  {"id":"p4","title":"Bindas Cap","category":"accessories","price":299,"image":"assets/images/p4.jpg","description":"Adjustable cap with embroidered logo."}
+]
